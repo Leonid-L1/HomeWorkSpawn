@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LifeCicle : MonoBehaviour
+public class WayPointFly : MonoBehaviour
 {
     private float _speed = 2.5f;
     private Vector3 _endPointPosition = new Vector3(0,7,0);
  
-    void Update()
+    private void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, _endPointPosition, _speed * Time.deltaTime);
 

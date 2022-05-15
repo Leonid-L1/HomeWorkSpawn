@@ -799,7 +799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9072c6de1bdf372418a377cde31a5851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Eagle: {fileID: 595232148888504164, guid: ac3a30e694aa7b74fbaf6a1fea30d219, type: 3}
+  _enemyEagle: {fileID: 595232148888504164, guid: ac3a30e694aa7b74fbaf6a1fea30d219, type: 3}
 --- !u!4 &2090075685
 Transform:
   m_ObjectHideFlags: 0
